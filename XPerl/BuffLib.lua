@@ -221,7 +221,7 @@ local BuffLibabilityIDs = {
         [19185] = 4, -- Entrapment
 };
 
-BuffLibDebug = 1
+BuffLibDebug = 0
 BuffLibDB = BuffLibDB or { sync = true}
 local function log(msg)
 	if BuffLibDebug == 1 then
